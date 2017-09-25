@@ -1,5 +1,5 @@
 param(
-    [ValidateSet("vs2013", "vs2015", "nupkg-only")]
+    [ValidateSet("vs2013", "vs2015", "nupkg-only")] 
     [Parameter(Position = 0)] 
     [string] $Target = "vs2013",
     [Parameter(Position = 1)]
